@@ -1,0 +1,44 @@
+{
+    "name": "HelloWorld",
+    "memoryLimit": "16G",
+    "installApps": ".alpackages",
+    "previousApps": "",
+    "appFolders": "app",
+    "testFolders": "",
+    "installTestFramework": false,
+    "installTestLibraries": false,
+    "installPerformanceToolkit": false,
+    "doNotSignApps": true,
+    "enableCodeCop": false,
+    "enableAppSourceCop": false,
+    "enablePerTenantExtensionCop": false,
+    "enableUICop": false,
+    "bcContainerHelperVersion": "preview",
+    "additionalCountries": "",
+    "vaultNameForLocal": "knkBuildVariables",
+	"organizationForLocal": "https://dev.azure.com/knkAG",
+    "feedForLocal": "DEAppsRelease",
+    "cleanDatabase": true,
+    "includeTimestampInDescription": "true",
+    "versions": [
+        {
+            "version": "ci",
+            "artifact": "/onprem/18.0.23013.23795/de",
+            "cacheImage": true,
+            "CreateRuntimePackages": true
+        },
+        {
+            "version": "current",
+            "artifact": "/onprem/18.0.23013.23795/de",
+            "CreateRuntimePackages": true
+        },
+        {
+            "version": "nextmajor",
+            "artifact": "///w1/NextMajor/{INSIDERSASTOKEN}"
+        },
+        {
+            "version": "nextminor",
+            "artifact": "///w1/NextMinor/{INSIDERSASTOKEN}"
+        }
+    ]
+}

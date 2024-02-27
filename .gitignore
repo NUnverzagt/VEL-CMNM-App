@@ -1,0 +1,14 @@
+*.app
+*.flf
+TestResults.xml
+rad.json
+.output
+.packages
+**/.snapshots
+**/.alpackages/*
+**/.altestrunner
+**/.alcache
+**/.vscode/*
+**/.output
+!**/.alpackages/.readme
+*.g.xlf

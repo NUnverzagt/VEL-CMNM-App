@@ -1,0 +1,32 @@
+{
+  "id": "11cbefab-1ab4-4357-9226-b7f1f2465b58",
+  "name": "VEL CMNM App",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "1e8772cd-2a3e-496d-9364-ef2e1ac0af40",
+      "name": "knkPublishing",
+      "publisher": "knk Business Software AG",
+      "version": "21.0.0.0"
+  }
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 70000,
+      "to": 70100
+    }
+  ],
+  "runtime": "10.0",
+  "features": ["TranslationFile"]
+}

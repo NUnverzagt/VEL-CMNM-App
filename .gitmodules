@@ -1,0 +1,6 @@
+[submodule "scripts"]
+	path = scripts
+	url = https://knkAG@dev.azure.com/knkAG/Scipts%20-%20PowerShell%20-%20YAML%20-%20etc/_git/Scripts
+[submodule "app/Scripts"]
+	path = app/Scripts
+	url = https://dev.azure.com/knkAG/Scipts%20-%20PowerShell%20-%20YAML%20-%20etc/_git/Scripts

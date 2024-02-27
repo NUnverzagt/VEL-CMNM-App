@@ -1,0 +1,58 @@
+{
+	"folders": [
+		{
+			"path": "app"
+		},
+		{
+			"path": "scripts"
+		},
+		{
+			"path": ".alpackages"
+		},
+		{
+			"path": ".azureDevOps"
+		}
+	],
+	"settings": {
+		// "CRS.FileNamePattern": "<Prefix><ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		// "CRS.FileNamePatternExtensions": "<Prefix><ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		// "CRS.FileNamePatternPageCustomizations": "<Prefix><ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+		// "CRS.OnSaveAlFileAction": "Rename",
+		// "CRS.RenameWithGit": false,
+		// "CRS.ObjectNamePrefix": "KNK ",
+		// "CRS.RemovePrefixFromFilename": true,
+		"git.autofetch": true,
+		"git.confirmSync": false,
+		"git.enableSmartCommit": true,
+		"workbench.iconTheme": "vscode-icons",
+		"todo-tree.highlights.enabled": true,
+		"telemetry.enableTelemetry": false,
+		"editor.quickSuggestionsDelay": 2,
+		"editor.suggestSelection": "first",
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": false,
+			"strings": false
+		},
+		"[al]": {
+			"editor.wordBasedSuggestions": "off",
+			"editor.suggestSelection": "first",
+			"editor.formatOnSave": true,
+			"editor.codeLens": false,
+		},
+		"editor.tabCompletion": "onlySnippets",
+		"alVarHelper.ignoreALPrefix": "Knk",
+		"al.ruleSetPath": "./.codeAnalysis/ruleset.json",
+		"al.enableCodeActions": true,
+		"al.enableCodeAnalysis": false,
+		"al.assemblyProbingPaths": [
+			"./.netpackages",
+			"C:/Program Files/Microsoft Dynamics 365 Business Central/210/",
+			"C:/Program Files (x86)/Microsoft Dynamics 365 Business Central/210/RoleTailored Client",
+			"C:/Program Files (x86)/Reference Assemblies/Microsoft/Framework/v3.5",
+			"C:/Program Files (x86)/Reference Assemblies/Microsoft/WindowsPowerShell",
+			"C:/Windows/Microsoft.NET/Framework64/v4.0.30319"
+		],
+		"al.packageCachePath": "..\\.alpackages",
+	}
+}
